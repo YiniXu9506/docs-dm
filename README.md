@@ -7,7 +7,7 @@ This repository stores all the source files of [TiDB Data Migration (DM) documen
 
 ## Documentation versions
 
-Currently, we maintain the following versions for TiDB DM documentation, each with a separate branch:
+Currently, we maintain the following versions for TiDB DM documentation, each with a separate branch: update readme
 
 | Branch name | Version description |
 | :--- | :-- |
