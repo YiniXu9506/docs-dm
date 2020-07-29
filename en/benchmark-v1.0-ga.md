@@ -7,7 +7,7 @@ aliases: ['/docs/tidb-data-migration/stable/benchmark-v1.0-ga/','/docs/tidb-data
 
 # DM 1.0-GA Benchmark Report
 
-This benchmark report describes the test purpose, environment, scenario, and result for DM 1.0-GA.
+This benchmark report describes the test purpose, environment, scenario, and result for DM 1.0-GA. update release 1.0
 
 ## Test purpose
 
