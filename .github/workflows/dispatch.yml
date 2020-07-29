@@ -1,12 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: trigger from release-1.0
+name: trigger 
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
     branches:
+      - master
       - release-1.0
 
 jobs:
@@ -26,7 +27,7 @@ jobs:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           repository: yinixu9506/website-docs
           event-type: triggered
-          client-payload: '{"repo": "${{ github.repo }}", "ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "repository": "${{ github.repository }}"}'
+          client-payload: '{"repo": "${{ github.repository }}", "ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
