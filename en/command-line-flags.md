@@ -11,7 +11,7 @@ This document introduces DM's command-line flags.
 
 ### `--advertise-addr`
 
-- The external address of DM-master used to receive client requests
+- The external address of DM-master used to receive client requests update file
 - The default value is `"{master-addr}"`
 - Optional flag. It can be in the form of `"domain-name:port"`
 
