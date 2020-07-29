@@ -14,6 +14,8 @@ Currently, we maintain the following versions for TiDB DM documentation, each wi
 | `master` | the latest development version, including v2.0 changes for now |
 | `release-1.0` | the latest 1.0 stable version |
 
+test release-1.0 update
+
 > **Note:**
 >
 > - Previously, we maintain the TiDB DM documentation in the [docs](https://github.com/pingcap/docs) and [docs-cn](https://github.com/pingcap/docs-cn) repository.
