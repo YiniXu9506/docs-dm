@@ -11,6 +11,13 @@ The [alert system](replicate-data-using-dm.md#step-7-monitor-the-task-and-check-
 >
 > There are alert rules provided with DM-worker only.
 
+{{< copyable "shell-regular" >}}
+   
+```bash
+echo "vm.swappiness = 0">> /etc/sysctl.conf
+swapoff -a && swapon -a
+```
+
 For more information about DM alert rules and the solutions, refer to [handle alerts](handle-alerts.md).
 
 Both DM alert information and monitoring metrics are based on Prometheus. For more information about their relationship, refer to [DM monitoring metrics](monitor-a-dm-cluster.md).
