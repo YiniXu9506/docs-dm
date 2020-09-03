@@ -18,14 +18,14 @@ echo "vm.swappiness = 0">> /etc/sysctl.conf
 swapoff -a && swapon -a
 ```
 
-<Error>This is an errro<Error>
+<Tip>This is an errro</Tip>
    
 ```bash
 echo "vm.swappiness = 0">> /etc/sysctl.conf
 swapoff -a && swapon -a
 ```
    
-<Error>This is an errro<Error>
+<Tip>This is an errro</Tip>
    
 ```bash
 echo "vm.swappiness = 0">> /etc/sysctl.conf
@@ -33,7 +33,7 @@ swapoff -a && swapon -a
 ```
    
    
-<Error>This is an errro<Error>
+<Tip>This is an errro</Tip>
 
 ```bash
 echo "vm.swappiness = 0">> /etc/sysctl.conf
