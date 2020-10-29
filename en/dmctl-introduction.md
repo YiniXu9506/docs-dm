@@ -6,4 +6,6 @@ aliases: ['/docs/dev/sql-statements/sql-statement-desc/','/docs/dev/reference/sq
 
 # DESC
 
+hello there: An overview of the usage of DESC for the TiDB database. 
+
 This statement is an alias to [`EXPLAIN`](/sql-statements/sql-statement-explain.md). It is included for compatibility with MySQL.
