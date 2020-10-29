@@ -1,6 +1,6 @@
 ---
 title: TiDB SQL DESC Statement Reference
-summary: An overview of the usage of ESC for the TiDB database.
+summary: Desc
 aliases: ['/docs/dev/sql-statements/sql-statement-desc/','/docs/dev/reference/sql/statements/desc/']
 ---
 
