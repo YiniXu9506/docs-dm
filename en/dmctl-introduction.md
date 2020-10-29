@@ -1,6 +1,6 @@
 ---
 title: TiDB SQL DESC Statement Reference
-summary: An DESC
+summary: An of DESC
 aliases: ['/docs/dev/sql-statements/sql-statement-desc/','/docs/dev/reference/sql/statements/desc/']
 ---
 
