@@ -1,7 +1,8 @@
 ---
 title: Introduction to dmctl
-summary: Learn how to manage the data replication task using dmctl.
+summary: Learn how to manage the data replication task using dmctl. 
 aliases: ['/docs/tidb-data-migration/dev/manage-replication-tasks/','/tidb-data-migration/dev/manage-replication-tasks/']
+  
 ---
 
 # Introduction to dmctl
@@ -15,9 +16,9 @@ The dmctl component supports the interactive mode and the command mode.
 Enter the interactive mode to interact with DM-master:
 
 {{< copyable "shell-regular" >}}
-
+    
 ```bash
-./dmctl -master-addr 172.16.30.14:8261
+./dmctl -master-addr 172.16.30.14:8261  
 ```
 
 ```
@@ -65,7 +66,7 @@ Flags:
 
 Use `dmctl [command] --help` to get more information about a command.
 ```
-
+    
 ## Command mode
 
 The command mode differs from the interactive mode in that you need to append the task operation right after the dmctl command. The parameters of the task operation in the command mode are the same as those in the interactive mode.
